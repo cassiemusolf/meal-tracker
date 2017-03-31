@@ -1,8 +1,3 @@
-node_modules/
-npm-debug.log
-bower_components/
-app/*.js
-app/*.js.map
-.DS_Store
-build/
-typings/
+export class Meal {
+  constructor(public name: string, public details: string, public calories: number) {}
+}
